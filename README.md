@@ -12,7 +12,7 @@ In order to use it, first you need to configure your database constant values on
 
 Then you only need to run the 'generator/processor.php' script file on an Apache server and it will output a 'models' folder with all models (folder-separated) with each model class file implementing the CRUD actions of the DataModel interface (located on 'core/').
 
-Every time you modify your database you can run again the processor in order to update your DataModels, because they are all isolated from the logic of the backend and the API.
+Every time you modify your database you can run again the processor in order to update your DataModels, because they are all isolated from the logic or the webservices.
 
 ## The DataModel Interface
 In order to perform the CRUD actions there is an interface declared for each model generated.
