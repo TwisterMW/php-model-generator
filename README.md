@@ -26,11 +26,11 @@ This parameters will be stored on an associative array with two available keys (
 
 Then the arguments that the constructor of the DataModel is expecting are the CRUD action to be performed and the extra parameters.
 
-## Creating an API
-Once you've generated your models you can create an API folder with the webservice files of your backend.
+## Defining a webservice
+Once you've generated your models you can create a 'ws' folder with the webservice files of your backend.
 Then in these files you can instantiate your models and perform the CRUD actions in order to manage data with your Front-End application.
 
-(Example of API file)
+(Example of WS file)
 ```php
     require '../models/YourModel.php;
 
