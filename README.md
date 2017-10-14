@@ -19,4 +19,4 @@ The generator is developed by the following premises:
 
     - The PRIMARY_KEY of each table should be named 'id'
 
-    - The name of the tables should be written in Delimiter-separated words by using underscore (_)
+    - The name of the tables should be written in lowercase and using Delimiter-separated words with underscore (_)
