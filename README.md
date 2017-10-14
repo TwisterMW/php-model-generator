@@ -16,5 +16,7 @@ Every time you modify your database you can run again the processor in order to 
 
 ## Annotations
 The generator is developed by the following premises:
+
     - The PRIMARY_KEY of each table should be named 'id'
+
     - The name of the tables should be written in Delimiter-separated words by using underscore (_)
