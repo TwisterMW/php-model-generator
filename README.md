@@ -10,6 +10,11 @@ In order to use it, first you need to configure your database constant values on
     define("DB_PASS", "");
 ```
 
-Then you only need to run the 'generator/processor.php' script file and it will output a 'models' folder with all models (folder-separated) and with each model class file implementing the CRUD actions of the DataModel interface (located on 'core/').
+Then you only need to run the 'generator/processor.php' script file on an Apache server and it will output a 'models' folder with all models (folder-separated) with each model class file implementing the CRUD actions of the DataModel interface (located on 'core/').
 
 Every time you modify your database you can run again the processor in order to update your DataModels, because they are all isolated from the logic of the backend and the API.
+
+## Annotations
+The generator is developed by the following premises:
+    - The PRIMARY_KEY of each table should be named 'id'
+    - The name of the tables should be written in Delimiter-separated words by using underscore (_)
