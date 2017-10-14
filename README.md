@@ -15,7 +15,7 @@ Then you only need to run the 'generator/processor.php' script file on an Apache
 Every time you modify your database you can run again the processor in order to update your DataModels, because they are all isolated from the logic of the backend and the API.
 
 ## Annotations
-The generator is developed by the following principles:
+The generator is developed assuming the following principles:
 
     - The PRIMARY_KEY of each table should be named 'id'
 
