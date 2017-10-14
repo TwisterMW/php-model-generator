@@ -1,6 +1,6 @@
 <?php
-    require '../../core/DB.php';
-    require '../../core/DataModel.php';
+    require '../core/DB.php';
+    require '../core/DataModel.php';
 
     define("TABLE_NAME", '<<tableName>>');
 
