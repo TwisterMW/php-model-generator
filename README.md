@@ -78,6 +78,11 @@ When we perform the delete action a register will be deleted by id from the data
 ```
 After updating the model an attribute "updated" will be setted on true and can be validated (same as UPDATE)
 
+## Auto Querying (Isolation of queries and models)
+All of CRUD generated queries are managed on DB class (core/DB.php) because each model could have different number of attributes, and the update/create queries need to be generated dinamically.
+
+Is for that reason that there is implemented a method on DB class called 'generateQuery' that depending on CRUD action and some nullable parameters auto-generates the desired (basic) query for manage data in one table.
+
 ## Defining a webservice
 Once you've generated your models you can create a 'ws' folder with the webservice files of your backend.
 Then in these files you can instantiate your models and perform the CRUD actions in order to manage data with your Front-End application.
